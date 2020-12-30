@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>Lucky Game</title>
+	 <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link rel="stylesheet" href="style.css">        
+</head>
+
+<body class="brown lighten-2">
+	<header>
+		<nav class="brown lighten-4">
+			<div class="nav-wrapper">
+			<div class="center">LUCKY LETTERS</div>
+			</div>
+		</nav>
+	</header>
+  <h4>You gotta try your luck</h4>
+	<div class="box">
+		<div>
+			<input type="text" id="input" placeholder="Type here...">
+      </div>
+      <div>
+         <button onclick="random()" class="black-text purple lighten-2 btn">Play</button>
+      </div>
+      <p class="black-text" id="thirdletter"></p> 
+      <p class="black-text" id="response"></p>
+    </div>
+    
+    <script src="script.js"></script>
+  </body>
+</html>

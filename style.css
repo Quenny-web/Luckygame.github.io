@@ -1,0 +1,9 @@
+.box {
+    width: 650px;
+    background: rgb(114, 5, 94);
+    padding: 40px;
+    margin: 0;
+    margin-top: 10%;
+    font-family: GillSans;
+    font-size: 30px;
+}
